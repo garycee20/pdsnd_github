@@ -11,7 +11,7 @@ def input_city():
     Returns:
         str (city) - name of the specified city
     """
-    # Define a dictionary CITY_SELECT for selection number key for value city
+    # Define a dictionary CITY_SELECT with number key for value city
     CITY_SELECT={1:'Chicago',
              2:'New York City',
              3:'Washington'}
@@ -92,7 +92,7 @@ def load_data():
     # load data file into dataframe
     df=pd.read_csv(CITY_INDEX[city])
 
-    # Convert column Start Time to date_time
+    # Convert column Start Time to date_time dtype
     df['Start Time']=pd.to_datetime(df['Start Time'])
 
     # Create a column in DataFrame df for the month
