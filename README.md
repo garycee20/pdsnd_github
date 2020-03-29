@@ -22,14 +22,12 @@ station and trip.
 
 3. Trip durations - Calculates the total and average trip duration.
 
-4. User information - Returns counts of User Types and Gender as well as
-statistics of birth year. Note: gender and birth year statistics are not
+4. User information - Returns counts of User Types and Gender as well as statistics of birth year. Note: gender and birth year statistics are not
 available for Washington.
 
 5. Summarise all statistics - Print a summary of all the above statistics.
 
-6. Restart and load a new dataset - Restart and load a new city, again with
-options to filter by month and day.
+6. Restart and load a new dataset - Restart and load a new city, again with options to filter by month and day.
 
 7. Quit - exit the program.
 
