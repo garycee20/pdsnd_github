@@ -5,8 +5,7 @@
 Bikeshare data exploration tool
 
 ### Description
-bikeshare.py is a program to explore bikeshare data from three different US
-cities. These cities are:
+bikeshare.py is a program to explore bikeshare data from three different US cities. These cities are:
 1. Chicago
 2. New York City
 3. Washington
