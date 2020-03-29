@@ -9,7 +9,7 @@ bikeshare.py is a program to explore bikeshare data from three different US citi
 1. Chicago
 2. New York City
 3. Washington
-The program loads data for a selected city from a csv file. Output can be filtered by a user selected month or day.
+The program loads data for a selected city from included csv files. Output can be filtered by a user selected month or day.
 
 The main program interface is a selection menu with the following options:
 
