@@ -201,11 +201,11 @@ def trip_duration(df):
     # Print title of calculation block
     print('\nBIKESHARE TRIP DURATIONS IN {}\n'.format(city.upper()))
 
-    # Calculate total travel time of df
+    # Calculate total travel time
     tot_trip=round((df['Trip Duration'].sum())/3600,2)
     print('The total travel time is {} hours'.format(tot_trip))
 
-    # Calculate the average trip time of df
+    # Calculate the average trip time
     avg_trip=round((df['Trip Duration'].mean())/60,2)
     print('The average trip duration is {} minutes'.format(avg_trip))
     print('-'*43)
