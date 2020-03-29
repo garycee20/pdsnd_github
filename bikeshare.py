@@ -247,10 +247,10 @@ def user_info(df):
             print('The most common birth year is {}'.format(int(common[0])))
             print('-'*43)
     else:
-        # Calculate count of user type
+        # Calculate a count of user type
         col_name_count=df['User Type'].value_counts()
 
-        # Print count of user type series
+        # Print a count of user type series
         print('Count of user type:\n')
         for i in col_name_count.keys():
             print('{}'.format(i),(' '*(15-len(i))),
